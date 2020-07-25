@@ -1,0 +1,63 @@
+body {
+    background-color: #343435;
+}
+
+h3 {
+    font-weight: 700;
+    color: rgb(108, 166, 231);
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+    font-family: cursive;
+}
+
+/* top level div */
+.top {
+    margin: 10px 20px 0 10px;
+}
+
+#scroll {
+    color: rgb(143, 136, 136);
+    text-align: right;
+    margin-bottom: -1px;
+    font-size: x-small;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* state-wise count */
+.status {
+    color: black;
+}
+
+table {
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+/* individual total count */
+.view {
+    width:25%;
+    height: max-content;
+    align-items: center; 
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.view:nth-child(1) {
+    color: rgb(253, 5, 5);
+}
+.view:nth-child(2) {
+    text-align: center;
+    color: rgb(236, 180, 24);
+}
+.view:nth-child(3) {
+    color: rgb(21, 255, 0);
+}
+.view:nth-child(4) {
+    color: rgb(145, 139, 132);
+}
+/* #6c757d;
+--gray-dark: #343a40 */
