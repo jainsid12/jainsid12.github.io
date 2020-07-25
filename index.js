@@ -42,11 +42,9 @@ function start(info){
     data.innerHTML = `${table}`;
 
     view.innerHTML = `
-                    <div id = "total"class = "d-flex 
+                    <div id = "total" class = "d-flex                   
                                 flex-md-row 
                                 bd-highlight 
-                                justify-content-between
-                                align-self-center
                                 mb-3">
                         
                             <div class = "p-2 bd-highlight view"><p>Confirmed</p>${totalCase.toString().replace(/(\d)(?=(\d\d)+\d$)/g, "$1,")}</div>
