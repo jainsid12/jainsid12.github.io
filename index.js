@@ -12,7 +12,7 @@ function start(info){
     console.table(info);
     info.sort( (a,b) => (a.noOfCases > b.noOfCases ? -1:1) );
     
-    var table = `<table class = "table table-hover table-responsive table-striped table-dark">
+    var table = `<table class = "table table-hover table-striped table-dark">
                     <thead class = "thead-dark">
                         <tr>
                             <th scope = "col">State</th>
